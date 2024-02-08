@@ -211,7 +211,7 @@ function HomePage() {
       <footer
         className={`${
           theme == "dark" ? "text-slate-200" : "text-slate-90"
-        } flex gap-2 mt-2`}
+        } flex gap-2 mt-2 z-10`}
       >
         <p className="text-sm">Desarrollado por</p>
         <Link
