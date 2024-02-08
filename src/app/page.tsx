@@ -35,7 +35,7 @@ function HomePage() {
         `}
       </style>
       <div
-        className={`opacity-5   bg-[url('bg.svg')] bg-center absolute w-full h-full top-0 overflow-hidden`}
+        className={`opacity-5 bg-[url('bg.svg')] bg-center absolute w-full h-full top-0 overflow-hidden`}
       >       
       </div>
       <header
@@ -119,7 +119,7 @@ function HomePage() {
       <section
         className={`${
           theme == "dark" ? "text-gray-100" : "text-gray-900"
-        } scroll-hidden max-w-2xl w-full max-h-[70vh] overflow-y-scroll `}
+        } scroll-hidden max-w-2xl w-full overflow-y-scroll`}
       >
         {messages.map((m) => (
           <div className={`mb-10 flex flex-col`} key={m.id}>
